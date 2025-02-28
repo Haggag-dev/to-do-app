@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <>
-      <h1 className="flex flex-col text-6xl md:text-7xl lg:text-8xl xl:text-9xl mt-20 mx-auto text-center justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-500 to-purple-600">
+      <h1 className="flex flex-col text-6xl md:text-7xl lg:text-8xl font-bold xl:text-9xl mt-20 mx-auto text-center justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-500 to-purple-600">
         <span>One Task</span>
         <span>at a Time</span>
       </h1>

@@ -1,12 +1,11 @@
 import Hero from "./components/Hero/Hero";
-import TasksConatiner from "./components/Tasks/TasksConatiner";
+import TasksContainer from "./components/Tasks/TasksContainer";
 
 const App = () => {
   return (
-    <div className="">
+    <div>
       <Hero />
-      <TasksConatiner/>
-
+      <TasksContainer />
     </div>
   );
 };

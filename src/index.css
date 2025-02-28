@@ -7,6 +7,7 @@
 @theme {
   --font-poppins: "Poppins", serif;
   --animate-text-cursor: blink 1s steps(1, end) infinite;
+  --breakpoint-grid-xs: 500px;
 
   @keyframes blink {
     50% {

@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 interface Props {
   task: string;
   addTask: (task: string) => void;
@@ -12,16 +10,16 @@ const AddTasks = ({ task, addTask, setTask }: Props) => {
   };
 
   return (
-    <div className="flex bg-[#22177A] text-white max-w-70 mt-10 px-3 py-2 justify-between mx-auto rounded-xl gap-x-1 group transition-transform duration-100 focus-within:scale-104">
+    <div className="flex bg-neutral-900 text-white max-w-70 mt-10 px-3 py-2 justify-between mx-auto rounded-xl gap-x-1 group transition-transform duration-100 focus-within:scale-104">
       <input
-        className="grow-1 text-white px-2 py-1 placeholder-white focus:outline-none focus:ring-0"
+        className="grow-1 text-white px-2 py-1 placeholder-white focus:outline-none focus:ring-0 w-full"
         type="text"
         placeholder="Add Task..."
         value={task}
         onChange={(e) => setTask(e.target.value)}
         onKeyDown={(e) => handleKeyDown(e)}
       />
-      <button className="text-xl" onClick={() => addTask(task)}>
+      <button className="text-xl cursor-pointer" onClick={() => addTask(task)}>
         +
       </button>
     </div>
