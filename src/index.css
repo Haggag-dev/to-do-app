@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 @theme {
   --font-poppins: "Poppins", serif;
